@@ -12,6 +12,13 @@ gedit .bashrc
 
 colcon build
 
+만약 하나의 패키지만 빌드할때 옵션
+
+예) cv_package 패키지이니 경우
+
+colcon build --packages-select cv_package
+
+
 2. lane 검출 및 모터값 확인
    
 python3 FindLane_Image.py ./data/boardpic.jpg
