@@ -4,7 +4,11 @@ cd
 
 gedit .bashrc
 
-133 line 의 cvselfdriving_ws 라인 주석 지우고 저장
+133 line 의 cvselfdriving_ws 라인 주석 지우고 
+
+134 line 에 ROS_DOMAIN_ID 를 본인 번호로 바꾸어 주세요
+
+저장
 
 colcon build
 
