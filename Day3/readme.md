@@ -33,5 +33,6 @@ scp -r nvidia@192.168.100.115:/home/nvidia/Day3/data/track.avi ./
 
    ros2 run cv_package lane_trace_cam_node
    
-
+  구독자
+6. ros2 run ros_rsaem_ctl rsaembot_motor
 
