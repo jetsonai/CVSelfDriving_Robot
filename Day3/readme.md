@@ -16,6 +16,6 @@ python3 FindLane_Image.py ./data/boardpic.jpg
    
 cd Day3/data/
 
-scp -r nvidia@192.168.100.113:/home/nvidia/Day3/data/track.avi ./
+scp -r nvidia@192.168.100.115:/home/nvidia/Day3/data/track.avi ./
 
 
