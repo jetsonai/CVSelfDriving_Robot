@@ -31,7 +31,7 @@ scp -r nvidia@192.168.100.115:/home/nvidia/Day3/data/track.avi ./
 
 4. 페키지 실핼
 
-   ros2 run cv_package lane_tracec_cam_node
+   ros2 run cv_package lane_trace_cam_node
    
 
 
