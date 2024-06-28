@@ -2,9 +2,9 @@
 
 cd
 
-edit .bashrc
+gedit .bashrc
 
-cvselfdriving_ws 라인 주석 지우고 저장
+133 line 의 cvselfdriving_ws 라인 주석 지우고 저장
 
 colcon build
 
