@@ -727,7 +727,7 @@ input_path = packet_path + "video/track.avi"
 def main(args=None):
   
     rclpy.init()
-    node = rclpy.create_node("cam_viewer")
+    node = rclpy.create_node("cam_viewer_node2")
 
     global bridge
     bridge = CvBridge()
