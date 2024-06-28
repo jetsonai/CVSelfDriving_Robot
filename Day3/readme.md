@@ -8,4 +8,7 @@ gedit .bashrc
 
 colcon build
 
-2. 
+
+python3 FindLane_Image.py ./data/boardpic.jpg
+
+
