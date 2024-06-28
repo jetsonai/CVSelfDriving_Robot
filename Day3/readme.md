@@ -8,7 +8,14 @@ gedit .bashrc
 
 colcon build
 
-
+2. lane 검출 및 모터값 확인
+   
 python3 FindLane_Image.py ./data/boardpic.jpg
+
+3. 영상 복사
+   
+cd Day3/data/
+
+scp -r nvidia@192.168.100.113:/home/nvidia/Day3/data/track.avi ./
 
 
