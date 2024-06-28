@@ -41,7 +41,9 @@ scp -r nvidia@192.168.100.115:/home/nvidia/Day3/data/track.avi ./
 함수 정의
 
 def Dist(src,dst):
+
     Homo,mask = cv2.findHomography(src,dst,cv2.RANSAC)
+    
     return Homo
 
     ------------
