@@ -56,6 +56,8 @@ dst = np.float32([[22.5,5],[22.5,2.5],[22.5,0],[22.5,-2.5]])
 
 Homo = Dist(src,dst)
 
+img_center = np.array([lane_center, lane_center_y,1])
+
 V_Center = np.dot(Homo, img_center)
 
 V_Center_X = V_Center[0]/V_Center[2]
