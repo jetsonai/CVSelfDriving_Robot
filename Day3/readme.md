@@ -83,3 +83,7 @@ cv2.putText(result, V_Center_Y_text, (lane_center, lane_center_y - 40), cv2.FONT
  8 YOLO
 
  ros2 run ros_yolosort ros_yolo_node
+
+ colcon build --packages-select ros_yolosort
+
+ 
