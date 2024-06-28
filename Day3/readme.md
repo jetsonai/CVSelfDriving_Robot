@@ -75,5 +75,9 @@ lane_center_y = int(lane_center_y)
 cv2.putText(result, V_Center_X_text, (lane_center, lane_center_y - 20), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (255, 255, 255), 2)
 
 cv2.putText(result, V_Center_Y_text, (lane_center, lane_center_y - 40), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (255, 255, 255), 2)
- 
 
+-----------------------
+
+ 8 YOLO
+
+ ros2 run ros_yolosort ros_yolo_node
