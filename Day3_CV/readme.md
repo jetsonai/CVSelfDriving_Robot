@@ -33,7 +33,7 @@ Click mouse point on the view to check distance!!
 
 python3 BEV_Dist_Camera.py 
 
-![get_warp_img_points](https://github.com/jetsonai/CVSelfDriving_Robot/assets/96120477/4c2c13ef-d999-4b68-a9a3-7bd3b12ce2f3)
+![BEV_cam_Homo](https://github.com/jetsonai/CVSelfDriving_Robot/assets/96120477/75cbb550-b001-4133-b583-5f484e3039b7)
 
 ==============================================
 
@@ -49,6 +49,4 @@ python3 Yolo_Sort_Dist_Cam.py
 
 
 
- 
 
-python3 
