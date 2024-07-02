@@ -7,7 +7,7 @@ python3 getWarpPoint_Image.py ./data/goStrait.jpg
 
 python3 getWarpPoint_Camera.py
 
-###Modify src 160 line  
+### Modify src 160 line  
 
 python3 FindLane_Image.py ./data/goStrait.jpg
 
@@ -28,7 +28,7 @@ python3 getWarpPoint_Camera.py
 
 ![get_warp_cam_points](https://github.com/jetsonai/CVSelfDriving_Robot/assets/96120477/5ba16f1a-2b2c-454e-9a91-d95060c83a09)
 
-##<Test Distance from Camera Homography>
+## Test Distance from Camera Homography
 
 Click mouse point on the view to check distance!!
 
