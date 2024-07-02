@@ -133,6 +133,13 @@ def Video(openpath):
         print("Video Not Opened")
         print("Program Abort")
         exit()
+
+    ### set size for usb camera ###########
+    #video_width = 640
+    #video_height = 480
+    #cap.set(cv2.CAP_PROP_FRAME_WIDTH, video_width)
+    #cap.set(cv2.CAP_PROP_FRAME_HEIGHT, video_height)   
+    ###########################
     fps = cap.get(cv2.CAP_PROP_FPS)
     width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
     height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
