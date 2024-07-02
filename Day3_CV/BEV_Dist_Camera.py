@@ -168,6 +168,8 @@ def Video(openpath):
     return
     
 gst_str = ("nvarguscamerasrc ! video/x-raw(memory:NVMM), width=(int)640, height=(int)480, format=(string)NV12, framerate=(fraction)60/1 ! nvvidconv flip-method=2 ! video/x-raw, width=(int)640, height=(int)480, format=(string)BGRx ! videoconvert ! video/x-raw, format=(string)BGR ! appsink")     
+#input_path = 0 // for usb camera
+input_path = gst_str
    
 if __name__=="__main__":
     Video(gst_str)
