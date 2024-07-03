@@ -29,7 +29,18 @@ colcon build --packages-select cv_package
 
 ## lane trace
 
+페키지 실
+
+ros2 run cv_package lane_trace_cam_node
+
+구독자 
+
+ros2 run ros_rsaem_ctl rsaembot_motor
 
 ## Yolo Sort Dist
+
+ros2 run ros_yolosort ros_yolo_node_dist
+
+colcon build --packages-select ros_yolosort
 
 
