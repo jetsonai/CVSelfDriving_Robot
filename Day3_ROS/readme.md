@@ -42,13 +42,17 @@ ros2 run ros_rsaem_ctl rsaembot_motor
 
 ros2 run ros_yolosort ros_yolo_node
 
+## Yolo Dist
+
+ros2 run ros_yolosort ros_yolo_dist
+
 ## Yolo Sort Dist
 
-ros2 run ros_yolosort ros_yolo_node_dist
+ros2 run ros_yolosort ros_yolo_sort_dist
 
 ## Yolo TTC
 
-ros2 run ros_yolosort ros_yolo_node_TTC
+ros2 run ros_yolosort ros_yolo_TTC
 
 
 
