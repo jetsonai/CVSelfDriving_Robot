@@ -26,6 +26,7 @@ colcon build
 
 colcon build --packages-select cv_package
 
+colcon build --packages-select ros_yolosort
 
 ## lane trace
 
@@ -37,10 +38,20 @@ ros2 run cv_package lane_trace_cam_node
 
 ros2 run ros_rsaem_ctl rsaembot_motor
 
+## Yolo Sort
+
+ros2 run ros_yolosort ros_yolo_node
+
 ## Yolo Sort Dist
 
 ros2 run ros_yolosort ros_yolo_node_dist
 
-colcon build --packages-select ros_yolosort
+## Yolo TTC
+
+ros2 run ros_yolosort ros_yolo_node_TTC
+
+
+
+
 
 
